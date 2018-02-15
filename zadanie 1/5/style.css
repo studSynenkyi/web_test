@@ -1,0 +1,48 @@
+div{
+	margin: 20px;
+}
+button{
+	border:none;
+	border-radius: 6px;
+	background-color: #f44336;
+	width: 100%;
+	font-weight: bold;
+
+
+}
+.mypage{
+	width: 480px;
+	height: 900px;
+}
+.header img{
+	width: 480px;
+	height: 100px;
+	margin: -20px;
+}
+h4{
+	text-align: center;
+}	
+.text{
+
+}
+.row{
+	margin: -5px;
+}
+.col1 img{
+	width: 200px;
+	height: 200px;
+}
+.col2 img{
+	width: 120px;
+	height: 180px;
+}
+.col1{
+	float:left;
+	width: 200px;
+	height: 260px;
+}
+.col2{
+	float: left;
+	width: 120px;
+	height: 295px;
+}
