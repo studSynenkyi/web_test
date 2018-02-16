@@ -11,12 +11,12 @@ div{
 }
 .main{
 	float: left;
-	width: 710px;
+	width: 65%;
 	height: 410px;
 }
 .sidebar{
 	float: right;
-	width: 520px;
+	width: 30%;
 	height: 410px;
 }
 .footer{

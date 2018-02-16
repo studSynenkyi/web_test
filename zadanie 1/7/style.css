@@ -24,25 +24,29 @@ h4{
 }	
 .text{
 	font-family: Arial, sans-serif;
+	padding: 10px;
 }
 .row{
 	margin: -5px;
 }
-.col1 img{
+.col img{
 	width: 200px;
 	height: 200px;
 }
-.col2 img{
-	width: 120px;
-	height: 180px;
-}
-.col1{
+.col{
 	float:left;
 	width: 200px;
 	height: 260px;
 }
-.col2{
-	float: left;
-	width: 120px;
-	height: 295px;
+.footer{
+	height: 160px;
+	background-color: rgb(9,133,157);
+}
+.social{
+	text-align: center;
+	color: white;
+}
+.social img{
+	width: 50px;
+	margin: 5px;
 }
