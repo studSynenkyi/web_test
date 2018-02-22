@@ -8,20 +8,23 @@
 .blue, .red, .yellow {
   width: 100px;
   height: 100px;
-  position: absolute;
+  position: relative;
 }
 .blue {
   background: blue;
-  margin: 100px;
+  top: 125px;
+  left: 125px;
   z-index: 1;
 }
 .red {
   background: red;
-  margin: 50px;
+  top: -15px;
+  left: 70px;
   z-index: 0;
 }
 .yellow {
   background:yellow;
-  margin: 150px;
+  top: -35px;
+  left: 170px;
   z-index: 2;
 }

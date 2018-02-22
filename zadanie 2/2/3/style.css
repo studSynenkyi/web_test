@@ -1,5 +1,5 @@
 .main-block, .house, .roof, .chimney, .door, .window{
-  position: absolute;
+  position: relative;
 }
 .main-block {
   background-image: url(http://tutorial.promo.net.ua/images/js/setka3.png);
@@ -12,9 +12,9 @@
   width: 150px;
   height: 150px;
   background: coral;
-  top: 50%;
-  left: 25%;
   z-index: 0;
+  top: 20px;
+  left: 75px;
 }
 .roof {
     width: 0;
@@ -22,32 +22,33 @@
     border-left: 110px solid transparent;
     border-right: 110px solid transparent;
     border-bottom: 100px solid red;
-    top: 17%;
-    left: 13%;
-    z-index: 2;
+    z-index: 3;
+    bottom: 290px;
+    left: 40px;
 }
 .chimney {
   width: 20px;
   height: 60px;
   background: black;
   z-index: 4;
-  top: 20%;
-  left: 30%;
+  bottom: 220px;
+  left: 90px;
 }
 .door {
-   width: 60px;
+  width: 60px;
   height: 90px;
   background: brown;
-  top: 70%;
-  left: 50%;
   z-index: 1;
+  top: 210px;
+  left: 140px;
+  
 }
 .window {
    width: 40px;
   height: 40px;
   background: cyan;
-  z-index: 3;
-  top: 70%;
-  left: 30%;
+  z-index: 2;
+  top: 120px;
+  left: 80px;
 }
   
