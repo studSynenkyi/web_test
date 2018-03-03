@@ -1,0 +1,28 @@
+body {
+	background: url(../img/body-bg.png) repeat-x;
+}
+.mypage{
+	width: 952px;
+	margin: 0 auto;
+}
+.head{
+	margin-top: 40px;
+}
+.nav{
+	display: inline-block;
+	margin-top: 20px;
+}
+.nav a{
+	background: #f3f6f7;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+}
+a:link:active, a:visited:active{
+	background: #d2dee4;
+}
+.content{
+	border: 2px solid #d2dee4;
+	margin-top: 10px;
+}
