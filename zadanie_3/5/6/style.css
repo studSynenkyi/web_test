@@ -1,0 +1,36 @@
+*{
+	margin: 0 auto;
+}
+table{
+	border-collapse: collapse;
+	font-weight: bold;
+}
+td, th{
+	border: 2px solid white;
+}
+div{
+	background: #7fbd40;
+	border-radius: 5px 0 0 5px;
+	color: white;
+	padding: 10px;
+}
+.top div{
+	border-radius: 5px 5px 0 0;
+}
+td{
+	background: #ddf3cc;
+	text-align: center;
+	color: #4f5b4f;
+}
+.check-mark td{
+	font-size: 24px;
+	color: #a1cc1a;
+}
+.price-tr th{
+	color: #4f5b4f;
+}
+.price-tr td{
+	background: none;
+	color: #a1cc1a;
+	font-size: 30px;
+}

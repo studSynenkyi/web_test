@@ -1,0 +1,88 @@
+.all{
+	margin: 50px;
+	overflow: hidden;
+}
+table{
+	float: left;
+	margin: 10px;
+	border-collapse: collapse;
+	text-align: center;
+}
+.first{
+	border: 2px solid #13917b;
+	border-bottom: 8px solid #13917b;
+}
+.cost{
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+	padding: 20px 0;
+}
+.green-cost{
+	background: #16a086;
+}
+.size{
+	font-size: 20px;
+	color: white;
+	padding: 10px 0;
+}
+.green-size{
+	background: #16a086;
+	border-bottom: 8px solid #13917b;
+}
+span{
+	font-weight: bold;
+}
+td{
+	color: gray;
+	padding: 10px 20px;
+}
+.btn{
+	padding: 20px 0;
+}
+.fbtn{
+	background: #16a086;
+	color: white;
+	border: none;
+	padding: 20px 30px;
+}
+
+.second{
+	border: 2px solid #cd8109;
+	border-bottom: 8px solid #cd8109;
+}
+.orange-cost{
+	background: #f39c11;
+}
+.orange-size{
+	background: #f39c11;
+	border-bottom: 8px solid #cd8109;
+}
+.sbtn{
+	background: #f39c11;
+	color: white;
+	border: none;
+	padding: 20px 30px;
+}
+
+.third{
+	border: 2px solid #a03022;
+	border-bottom: 8px solid #a03022;
+}
+.red-cost{
+	background: #c1392b;
+}
+.red-size{
+	background: #c1392b;
+	border-bottom: 8px solid #a03022;
+}
+.tbtn{
+	background: #c1392b;
+	color: white;
+	border: none;
+	padding: 20px 30px;
+}
+hr{
+	margin: 0 auto;
+	border: 0.5px dashed grey;
+}

@@ -1,0 +1,58 @@
+body{
+	background: #272122;
+}
+.card{
+	width: 800px;
+}
+img{
+	float: left;
+}
+.burger-ad{
+	background: black;
+	width: 260px;
+	position: absolute;	
+	color: white;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	top: 190px;
+	left: -10px;
+}
+.burger-ad p{
+	font-size: 14px;
+}
+span{
+	color: yellow;
+}
+.burger-list{
+	background: white;
+	overflow: hidden;
+	font-weight: bold;
+	text-align: center;
+}
+h3{
+	padding: 22px 0;
+}
+.item{
+	float: left;
+	width: 200px;
+	margin: 0 35px;
+	border-bottom: 1px solid #d5d5d5;
+}
+.last{
+	margin-bottom: 40px;
+}
+.price{
+	color: #d5d5d5;
+}
+
+.nav{
+	float: right;
+	background: black;
+	padding: 20px;
+	margin-top: 10px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}

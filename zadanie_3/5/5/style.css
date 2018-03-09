@@ -1,0 +1,39 @@
+body{
+	background-color: #ddbab0;
+}
+table{
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+.top th{
+	padding: 15px;
+	color: white;
+	background: #21272a;
+	border: 1px solid black;
+	font-weight: normal;
+}
+.top th:empty{
+	background: none;
+	border: none;
+}
+td{
+	padding: 12px 50px;
+    text-align: center;
+    background: #e9e9e9;
+    color: black;
+    border: 1px solid #d0d0d0;
+}
+th{
+	padding: 15px 50px;
+    color: #fff;
+    background: #db4c40;
+    font-weight: normal;
+    border: 1px solid #c73e34;
+}
+button{
+    background: #e15145;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
