@@ -1,0 +1,81 @@
+.full{
+	margin: auto;
+	width: 600px;
+	height: 450px;
+	padding: 4px;
+}
+.main{
+    border: 4px solid #36f;
+    width: 100%;
+    height: 100%;
+}
+.float{
+    width: 200px;
+    float: left;
+    height: 100%;
+}
+.line, .line2{
+    top: 20px;
+    border-left: 1px solid #36f;
+    width: 0px;
+    height: 380px;
+}
+.line2{
+	right: 0;
+}
+.square{
+	height: 36px;
+	width: 36px;
+	background: #36f;
+}
+.text{
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+.square1{
+    top: 60px;
+    left: 10px;
+}
+.square2{
+    top: 100px;
+    left: 50px;
+}
+.square3{
+    top: 185px;
+    left: 150px;
+}
+.square4{
+    top: 85px;
+    left: 115px;
+}
+.square5{
+    top: 185px;
+    left: 90px;
+}
+.text1{
+    top: 60px;
+    left: 55px;
+}
+.text2{
+    top: 100px;
+    left: 95px;
+}
+.text3{
+    top: 185px;
+    left: 60px;
+}
+.text4{
+    top: 60px;
+    left: 60px;
+}
+.text5{
+    top: 180px;
+    left: 65px;
+}
+.main, .float, .square4, .text4{
+	position: relative;
+}
+.line, .line2, .square1, .square2, .square3, .square5, .text1, .text2, .text3, .text5{
+	position: absolute;
+}
