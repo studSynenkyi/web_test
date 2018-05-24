@@ -37,20 +37,29 @@ h3{
 	float: left;
 	width: 200px;
 	margin: 0 35px;
-	border-bottom: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;	
+}
+.item:after {
+	content: "";
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	background: #afaaaa;
+	transform: rotate(45deg);
+	margin-top: -3px;
 }
 .last{
 	margin-bottom: 40px;
 }
 .price{
-	color: #d5d5d5;
+	color: #afaaaa;
 }
-
 .nav{
 	float: right;
 	background: black;
 	padding: 20px;
 	margin-top: 10px;
+	font-weight: bold;
 }
 a{
 	text-decoration: none;
