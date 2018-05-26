@@ -5,7 +5,7 @@ document.write("<br>");
 
 
 function getMinutes (sec) {
-	sec = (sec%60);
+	sec = (sec/60)%60;
 	return sec;
 }
 function getDays(sec) {
